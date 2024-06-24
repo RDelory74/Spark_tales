@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1 class="Hfamily">Les chroniques d'Avian Spark</h1>
+        <h1 class="Hfamily">Les Chroniques d'Avian Spark</h1>
         <nav>
             <a class="headtext" href="index.php">Home</a>
             <a class="headtext" href="chapters.php">Chapters</a>
