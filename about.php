@@ -1,5 +1,7 @@
 <!-- about.php -->
-<?php include('header.php'); ?>
+<?php
+$title = "A propos d'Avian";
+include('header.php'); ?>
 
 <main>
     <h2 class="Hfamily">À propos D'Avian</h2>

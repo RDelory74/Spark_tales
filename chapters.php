@@ -1,5 +1,7 @@
 <!--Chapters page.php -->
-<?php include('header.php'); ?>
+<?php
+$title = "Chapitres";
+include('header.php'); ?>
 
 <main>
     <h2 class="Hfamily">Chapters</h2>

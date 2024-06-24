@@ -1,9 +1,12 @@
 <!-- index.php -->
-<?php include('header.php'); ?>
+
+<?php
+$title = " Index Spark";
+include('header.php'); ?>
 
 <main>
     <h2 class="Hfamily">Avian Spark Tales</h2>
-    
+
     <p class="fontext">Dans l'univers l'humanité s'est étendue à travers le Système solaire,
         tissant une toile complexe de colonies et d'avant-postes. La Terre, surpeuplée et aux ressources épuisées,
         se bat pour maintenir son hégémonie face à une Mars militarisée, fermement décidée à mener à bien sa terraformation.
