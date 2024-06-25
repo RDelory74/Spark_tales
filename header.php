@@ -16,5 +16,6 @@
             <a class="headtext" href="index.php?path=/home">Home</a>
             <a class="headtext" href="index.php?path=/chapters">Chapters</a>
             <a class="headtext" href="index.php?path=/about">Avian</a>
+            <a class="headtext" href="index.php?path=/contact">Contact</a>
         </nav>
     </header>

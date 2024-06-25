@@ -8,6 +8,8 @@ if ($path == '/home') {
     include('about.php');
 } elseif ($path == '/chapters') {
     include('chapters.php');
+} elseif ($path == '/contact') {
+    include('contact.php');
 } else echo "404 error php not found !";
 
 ?>
