@@ -13,8 +13,8 @@
     <header>
         <h1 class="Hfamily">Les Chroniques d'Avian Spark</h1>
         <nav>
-            <a class="headtext" href="index.php">Home</a>
-            <a class="headtext" href="chapters.php">Chapters</a>
-            <a class="headtext" href="about.php">Avian</a>
+            <a class="headtext" href="index.php?path=/home">Home</a>
+            <a class="headtext" href="index.php?path=/chapters">Chapters</a>
+            <a class="headtext" href="index.php?path=/about">Avian</a>
         </nav>
     </header>
