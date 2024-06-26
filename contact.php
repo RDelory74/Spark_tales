@@ -19,14 +19,23 @@ include('header.php'); ?>
 
         <label class="form-label" for="email">Email :</label>
         <input class="form-input" type="email" id="email" name="email">
+        <fieldset class="form-radio">
+            <legend>Quel est le but de ton message ?</legend>
+            <div>
+                <input type="radio" id="Raison" name="Raison" value="nouvel heros" checked />
+                <label class="form-radio" for="Raison">Je veux changer de Heros</label>
+            </div>
 
-        <label class="form-label" for="Raison">Dans quel but :</label>
-        <select class="form-select" id="Raison" name="Raison">
-            <option value="">Quel est le but de ton message</option>
-            <option value="nouvel heros">Je veux changer de Heros</option>
-            <option value="nouvelle histoire">Je veux changer le cours de l'histoire</option>
-            <option value="nouvelle idée">J'ai une super bonne idée</option>
-        </select>
+            <div>
+                <input type="radio" id="Raison" name="Raison" value="nouvelle histoire" />
+                <label class="form-radio" for="Raison">Je veux changer le cours de l'histoire</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Raison" name="Raison" value="nouvelle idée" />
+                <label class="form-radio" for="Raison">J'ai une super bonne idée</label>
+            </div>
+        </fieldset>
 
         <label class="form-label" for="message">Message :</label>
         <textarea class="form-textarea" id="message" name="message" rows="6" minlength="5"></textarea>
