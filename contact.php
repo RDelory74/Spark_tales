@@ -15,10 +15,11 @@ include('header.php'); ?>
             <option value="Miss">Mademoiselle</option>
         </select>
         <label class="form-label" for="name">Nom :</label>
-        <input class="form-input" type="text" id="name" name="name">
+        <input class="form-input" type="text" id="name" name="name" required pattern="^[A-Za-z '-]+$" maxlength="20">
 
         <label class="form-label" for="email">Email :</label>
-        <input class="form-input" type="email" id="email" name="email">
+        <input class="form-input" type="email" id="email" name="email" 
+        //required pattern="^[A-Za-z]+@{1}^[A-Za-z]+\.{1}^[A-Za-z]{2,}$">
         <fieldset class="form-radio">
             <legend>Quel est le but de ton message ?</legend>
             <div>
@@ -42,10 +43,6 @@ include('header.php'); ?>
 
         <input class="form-submit" type="submit" value="Envoyer">
     </form>
-
-    <div class="pictpos">
-        <img class="picstyle" href="" src="/IMG/pictform.png" alt="image">
-    </div>
 </main>
 
 <?php include('footer.php'); ?>
