@@ -1,30 +1,40 @@
 <?php
+ 
  $serveur = "localhost";
-
+ $file = 'bdd.txt';
  $mail = valid_info($_POST['email']);
- $civilité = valid_info($_POST["civility"]);
+ $civilite = valid_info($_POST["civility"]);
  $name = valid_info($_POST["name"]);
  $Raison = valid_info($_POST["Raison"]);
  $message = valid_info($_POST["message"]);
+ //$civilite2 = ($_POST["civility"]);
+ // Je concatène les valeurs de mes variables dans une seule variable
+
+$data = "Civilité: $civilite\n";
+$data .= "Nom: $name\n";
+$data .= "Email: $mail\n";
+$data .= "Raison de contact: $Raison\n";
+$data .= "Message:\n$message\n\n";
 
  function valid_info($infos){
-    $infos = trim($infos);
-    $infos = stripslashes($infos);
-    $infos = htmlspecialchars($infos);
+    $infos= trim($infos);
+    $infos= stripslashes($infos);
+    $infos= htmlspecialchars($infos);
+    return $infos;
 }
 
     if (
-       isset($_POST['name'])
-    && isset($_POST['email'])
-    && isset($_POST['message'])
-    && filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)
-    && isset($_POST['civility'])
-    && strlen($_POST['message']) > 5
-    //&& preg_match("^[A-Za-z '-]+$",$_POST["name"])
+       isset($name)
+    && isset($mail)
+    && isset($message)
+    && filter_var($mail, FILTER_VALIDATE_EMAIL)
+    && isset($civilite)
+    && strlen($message) > 5
     ){
-        // Le formulaire a été soumis : récupération des informations et    création des variables
-        echo "Félicitation $civilité $name votre requête pour $Raison a bien été envoyée avec le message suivant:$message ";
+       if (file_put_contents($file,$data, FILE_APPEND | LOCK_EX)!== false)
+        {
         header("Location:merci.php");
+        }
     }
     else {
         echo "Formulaire pas valide !! ";

@@ -19,7 +19,7 @@ include('header.php'); ?>
 
         <label class="form-label" for="email">Email :</label>
         <input class="form-input" type="email" id="email" name="email" 
-        //required pattern="^[A-Za-z]+@{1}^[A-Za-z]+\.{1}^[A-Za-z]{2,}$">
+        required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}$">
         <fieldset class="form-radio">
             <legend>Quel est le but de ton message ?</legend>
             <div>
