@@ -32,7 +32,7 @@ include('header.php'); ?>
         <input class="form-input" type="text" id="name" name="name" value="<?= isset($_SESSION['name']) ? htmlspecialchars($_SESSION['name']) : '' ?>" required pattern="^[A-Za-z '-]+$" maxlength="20">
 
         <label class="form-label" for="email">Email :</label>
-        <input class="form-input" type="email" id="email" name="email" value="<?= isset($_SESSION['email']) ? htmlspecialchars($_SESSION['email']) : '' ?>" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z.]{2,15}$">
+        <input class="form-input" type="email" id="email" name="email" value="<?= isset($_SESSION['email']) ? htmlspecialchars($_SESSION['email']) : '' ?>" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z.]{2,}$">
 
         <fieldset class="form-radio">
             <legend>Quel est le but de ton message ?</legend>
