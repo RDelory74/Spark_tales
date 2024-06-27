@@ -8,6 +8,7 @@ include('header.php'); ?>
     <p class="fontext">
         <?php
         if (isset($_SESSION['errors'])) {
+            echo htmlspecialchars($_SESSION['inforegist']);
             echo htmlspecialchars($_SESSION['errors']);
             unset($_SESSION['errors']); // On efface les erreurs après les avoir affichées
         } else {

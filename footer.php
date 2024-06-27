@@ -42,7 +42,7 @@
                         $message = trim(str_replace('Message:', '', $line));
                     }
                 }
-
+                
                 // Afficher les données de la contribution si elles sont valides
                 if (!empty($civilite) && !empty($message)) {
                     echo "<p>$civilite $nom</p>";
