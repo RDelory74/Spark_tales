@@ -1,4 +1,8 @@
 <!-- header.php -->
+ <?php
+ session_start(); 
+ ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -18,4 +22,13 @@
             <a class="headtext" href="index.php?path=/about">Avian</a>
             <a class="headtext" href="index.php?path=/contact">Contact</a>
         </nav>
+        <p class="fontext">
+        <?php
+        if (isset($_SESSION['headerpunch'])) {
+            echo htmlspecialchars($_SESSION['headerpunch']);
+        } else {
+            echo "Une histoire dont vous êtes l'auteur";
+        }
+        ?>
+        </p>
     </header>

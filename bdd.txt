@@ -12,3 +12,51 @@ Raison de contact: nouvel heros
 Message:
 Oui un nouvel héros MONSIEUR!
 
+Civilité: Mr
+Nom: Delory
+Email: roro_spike@hotmail.com
+Raison de contact: nouvel heros
+Message:A new world is possible
+
+Civilité: Mr
+Nom: Delory
+Email: roro_spike@hotmail.com
+Raison de contact: nouvel heros
+Message:Jhonny
+
+Civilité: Mr
+Nom: Delory
+Email: roro_spike@hotmail.com
+Raison de contact: nouvel heros
+Message:Ceci est encore un test
+
+Civilité: Mr
+Nom: Delory
+Email: roro_spike@hotmail.com
+Raison de contact: nouvel heros
+Message:Je voudrais un héros plus juste.
+
+Civilité: Mr
+Nom: Delory
+Email: roro_spike@hotmail.com
+Raison de contact: 
+Message:hherhge
+
+Civilité: Mr
+Nom: Delory
+Email: roro_spike@hotmail.com
+Raison de contact: nouvel heros
+Message:Mais que c&#039;est beau.
+
+Civilité: Mr
+Nom: Delory
+Email: roro_spike@hotmail.com
+Raison de contact: nouvelle histoire
+Message:Ha l&#039;histoire, elle n&#039;existe que si on l&#039;écrit.
+
+Civilité: Mr
+Nom: Delory
+Email: roro_spike@hotmail.com
+Raison de contact: nouvelle histoire
+Message:Ha c&#039;est comme ça que je veux que ça tourne.
+
