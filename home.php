@@ -18,18 +18,10 @@ include('header.php'); ?>
         L'espace, vaste et indifférent, demeure un théâtre de conflits, de découvertes et de rêves.</p>
     
 
-    <div class="box">
-        <span style="--i:1"><img src="./IMG/indexpict.png"></span>
-        <span style="--i:2"><img src="./IMG/backgnd.png"></span>
-        <span style="--i:3"><img src="./IMG/chapterimg.png"></span>
-        <span style="--i:4"><img src="./IMG/indexpict.png"></span>
-        <span style="--i:5"><img src="./IMG/pictform.png"></span>
-        <span style="--i:6"><img src="./IMG/chapterimg.png"></span>
-        <span style="--i:7"><img src="./IMG/indexpict.png"></span>
-        <span style="--i:8"><img src="./IMG/indexpict.png"></span>
-        <span style="--i:9"><img src="./IMG/indexpict.png"></span>
-        <span style="--i:10"><img src="./IMG/indexpict.png"></span>
+        <div class="pictpos">
+        <img class="picstyle" href="" src="/IMG/indexpict.png" alt="image d'accueil">
     </div>
+
 
     <p class="fontext">Le bourdonnement familier de mon terminal m'a réveillé doucement ce matin.
         J'ai ouvert les yeux sur la lumière artificielle de mon appartement à New Tokyo,
